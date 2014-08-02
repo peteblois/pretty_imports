@@ -16,3 +16,9 @@ Results in:
 import 'package:unittest/unittest.dart';
 import 'package:unittest/vm_config.dart';
 ```
+
+To use, add to your pubspec.yaml:
+```
+transformers:
+- pretty_imports
+```
